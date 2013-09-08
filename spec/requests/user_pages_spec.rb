@@ -6,10 +6,10 @@ describe "User pages" do
 
   	describe "Sign Up Page" do
 
-  	before {visit sign_up_path}
+  	before {visit signup_path}
 
   	it { should have_selector('h1',text: 'Sign Up')	}
-  	it {should have_selector('title',text: full_title('Sign up'))}
+  	it {should have_selector('title',text: full_title('Sign Up'))}
  	 end
   
 end
